@@ -1,0 +1,41 @@
+.footer {
+  color: #fff;
+  min-height: 200px;
+  width: 100%;
+  border-top: 1px solid #fff;
+  position: relative;
+
+  &__container {
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+
+    &__top {
+      display: flex;
+      flex-direction: row;
+      padding: 4rem 0;
+
+      &__thing {
+        flex: 1 1;
+        padding: 2rem 0;
+      }
+      &__info {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        line-height: 3;
+        img {
+          width: 29px;
+          height: 29px;
+        }
+      }
+    }
+
+    &__bottom {
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
