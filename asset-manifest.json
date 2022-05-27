@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Planethereum/static/css/main.c8dd83e9.css",
-    "main.js": "/Planethereum/static/js/main.77f2f887.js",
+    "main.js": "/Planethereum/static/js/main.4fd2f8e4.js",
     "static/media/video.mp4": "/Planethereum/static/media/video.3a91faa10a062db9e79d.mp4",
     "static/media/opensea.svg": "/Planethereum/static/media/opensea.1f5996d837c8e0253830785a0d3c70de.svg",
     "index.html": "/Planethereum/index.html",
     "main.c8dd83e9.css.map": "/Planethereum/static/css/main.c8dd83e9.css.map",
-    "main.77f2f887.js.map": "/Planethereum/static/js/main.77f2f887.js.map"
+    "main.4fd2f8e4.js.map": "/Planethereum/static/js/main.4fd2f8e4.js.map"
   },
   "entrypoints": [
     "static/css/main.c8dd83e9.css",
-    "static/js/main.77f2f887.js"
+    "static/js/main.4fd2f8e4.js"
   ]
 }
