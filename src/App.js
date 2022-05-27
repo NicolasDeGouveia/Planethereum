@@ -21,7 +21,7 @@ function App() {
       <Navbar toggle={handleToggle} />
       <Dropdown isActive={isActive} toggle={handleToggle} />
       <Routes>
-        <Route path='/Planethereum' element={<Home />} />
+        <Route path='/Planethereum/' element={<Home />} />
         <Route path='/project' element={<Project />} />
         <Route path='/roadmap' element={<Roadmap />} />
       </Routes>
