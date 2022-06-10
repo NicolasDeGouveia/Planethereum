@@ -30,7 +30,7 @@ export default function Navbar({ toggle }) {
   }, []);
 
   const style = {
-    backgroundColor: navBar || location.pathname !== '/Planethereum' ? '#b78846' : 'transparent',
+    backgroundColor: navBar || location.pathname !== '/' ? '#b78846' : 'transparent',
     transition: '0.6s ease-in-out',
     height: '100px',
   };
@@ -40,7 +40,7 @@ export default function Navbar({ toggle }) {
       <div className="navbar__container">
         <div className="navbar__title">
           <h1>
-            Planethereum
+            <a href="/">Planethereum</a>
           </h1>
         </div>
         <div className="navbar__list">
