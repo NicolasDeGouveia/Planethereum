@@ -1,11 +1,11 @@
 import './Styles.scss';
 import { navData } from '../data/navData';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 
-export default function Navbar({toggle}) {
+export default function Navbar({ toggle }) {
   const [navBar, setNavBar] = useState(false);
   const location = useLocation();
 
@@ -30,9 +30,9 @@ export default function Navbar({toggle}) {
   }, []);
 
   const style = {
-    backgroundColor: navBar || location.pathname !== '/Planethereum/' ? '#b78846' : 'transparent',
+    backgroundColor: navBar || location.pathname !== '/' ? '#b78846' : 'transparent',
     transition: '0.6s ease-in-out',
-    height : '100px',
+    height: '100px',
   };
 
   return (
@@ -40,13 +40,13 @@ export default function Navbar({toggle}) {
       <div className="navbar__container">
         <div className="navbar__title">
           <h1>
-            <Link to="/Planethereum/">Planethereum</Link>
+            <a href="/">Planethereum</a>
           </h1>
         </div>
         <div className="navbar__list">
           {
             navData.map((nav) => (
-              <NavLink to={nav.link} key={nav.id} className="navbar__item"> {nav.title} </NavLink>
+              <a href={nav.link} key={nav.id} className="navbar__item"> {nav.title} </a>
             ))
           }
         </div>

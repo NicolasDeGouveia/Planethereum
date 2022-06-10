@@ -2,7 +2,7 @@ import './Styles.scss';
 
 export default function Project() {
   return (
-    <div className="project">
+    <div id="about" className="project">
       <div className='project__container'>
         <div className="project__container__left">
           <p>The Infinity Of Universe</p>
@@ -13,7 +13,7 @@ export default function Project() {
           </div>
 
         </div>
-      </div>  
+      </div>
     </div>
   );
 }

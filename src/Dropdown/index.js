@@ -1,10 +1,9 @@
-import { Link } from 'react-router-dom';
 import './Styles.scss';
-import {navData} from '../data/navData';
-import {ImCross} from 'react-icons/im';
+import { navData } from '../data/navData';
+import { ImCross } from 'react-icons/im';
 import PropTypes from 'prop-types';
 
-export default function Dropdown({isActive, toggle}) {
+export default function Dropdown({ isActive, toggle }) {
   return (
     <div className={(isActive) ? ' dropdown' : 'dropdown-isActive'}>
       <div className="dropdown__icon" onClick={toggle} >
@@ -14,7 +13,7 @@ export default function Dropdown({isActive, toggle}) {
         <div className="dropdown__menu">
           {
             navData.map((nav) => (
-              <Link key={nav.id} to={nav.link} className="dropdown__item"> {nav.title} </Link>
+              <a onClick={toggle} key={nav.id} href={nav.link} className="dropdown__item"> {nav.title} </a>
             ))
           }
         </div>

@@ -3,16 +3,16 @@ export const navData = [
   {
     id: 1,
     title: 'Project',
-    link: '/project',
+    link: '#about',
   },
   {
     id: 2,
     title: 'Road Map',
-    link: '/roadmap',
+    link: '#map',
   },
   {
     id: 3,
     title: 'Team',
-    link: '/team',
+    link: '#team',
   },
 ];
