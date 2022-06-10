@@ -3,9 +3,8 @@ import Navbar from './Navbar';
 import Home from '../src/Pages/index';
 import Dropdown from './Dropdown';
 import { useState } from 'react';
-import Project from './Project';
 import Background from './Background';
-import Roadmap from './Roadmap';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   const [isActive, setIsActive] = useState(false);
@@ -19,7 +18,9 @@ function App() {
       <Background />
       <Navbar toggle={handleToggle} />
       <Dropdown isActive={isActive} toggle={handleToggle} />
-      <Home />
+      <Routes>
+        <Route path='/Planethereum/' element={<Home />} />
+      </Routes>
     </>
   );
 }
