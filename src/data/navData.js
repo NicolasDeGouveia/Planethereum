@@ -13,6 +13,6 @@ export const navData = [
   {
     id: 3,
     title: 'Team',
-    link: '#team',
+    link: '#squad',
   },
 ];
