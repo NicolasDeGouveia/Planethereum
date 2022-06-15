@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Planethereum/static/css/main.f0e9937d.css",
+    "main.css": "/Planethereum/static/css/main.cf19c164.css",
     "main.js": "/Planethereum/static/js/main.d9574d83.js",
     "static/media/video.mp4": "/Planethereum/static/media/video.3a91faa10a062db9e79d.mp4",
     "static/media/map.png": "/Planethereum/static/media/map.c9d8147c9dc058b4ddf0.png",
@@ -9,11 +9,11 @@
     "static/media/angelus.jpg": "/Planethereum/static/media/angelus.c3317cb1e547ab8f1933.jpg",
     "static/media/opensea.svg": "/Planethereum/static/media/opensea.1f5996d837c8e0253830785a0d3c70de.svg",
     "index.html": "/Planethereum/index.html",
-    "main.f0e9937d.css.map": "/Planethereum/static/css/main.f0e9937d.css.map",
+    "main.cf19c164.css.map": "/Planethereum/static/css/main.cf19c164.css.map",
     "main.d9574d83.js.map": "/Planethereum/static/js/main.d9574d83.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0e9937d.css",
+    "static/css/main.cf19c164.css",
     "static/js/main.d9574d83.js"
   ]
 }
